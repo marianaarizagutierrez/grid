@@ -1,0 +1,22 @@
+.grid_denson{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    background-color: blanchedalmond;
+    grid-auto-flow: row;
+    grid-auto-flow: row dense;
+    grid-auto-flow: column;
+    box-sizing: border-box blue;
+}
+/*.item:nth-child(9){
+    background-color: blueviolet;
+    color: rgb(243, 224, 224);
+    grid-row: span 3;
+    grid-column: span 3;
+}*/
+.item:nth-child(11){
+    background-color: rgb(90, 185, 64);
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    grid-row: span 5;
+}

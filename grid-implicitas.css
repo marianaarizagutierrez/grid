@@ -1,0 +1,11 @@
+.grid-implicitas{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-auto-flow: column;
+    grid-auto-columns: 400px;
+    background-color: blue;
+}
+.item5{
+    background-color: black;
+}

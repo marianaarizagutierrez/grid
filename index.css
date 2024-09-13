@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100 vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 10px 1fr;
+    grid-template-areas: 
+    "header header header header header header"
+    ". sibear-left container container sibear-rigth .";
+
+}
+.header{
+    grid-area: header;
+    background-color: blue;
+}
+.sibear-left{
+    grid-area: sibear-left;
+    background-color: blueviolet;
+
+}
+.container{
+    grid-area: container;
+    background-color: brown;
+}
+
+.sibear-rigth{
+    grid-area: sibear-rigth;
+    background-color: aqua;
+}
