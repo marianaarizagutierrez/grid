@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor {
+  margin: 0 auto;
+  width: 80%;
+  height: 80vh;
+  background-color: black;
+  border: solid 1px black;
+}
+.item {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background: rgb(87, 86, 86);
+  border: solid 1px rgb(210, 210, 210);
+}
+.grid-alineamiento {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(4, 250px);
+  justify-items: center;
+  justify-items: stretch;
+  justify-items: start;
+  justify-items: end;
+  align-items: center;
+}
+.item:nth-child(5) {
+  align-self: end;
+  background-color: brown;
+}

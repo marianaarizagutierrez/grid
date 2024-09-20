@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor {
+  margin: 0 auto;
+  width: 800px;
+  height: 80vh;
+  background-color: black;
+  border: solid 1px black;
+}
+.item {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background: rgb(87, 86, 86);
+  border: solid 1px rgb(210, 210, 210);
+}
+.grid_reporsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
